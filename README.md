@@ -1,2 +1,3 @@
-# PriceOptions
-React components with design files
+# HTML / CSS Projects
+
+Various HTML/CSS projects based on design files
