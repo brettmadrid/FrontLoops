@@ -18,17 +18,20 @@
   border-radius: 4px;
   width: 600px;
   height: 465px;
-  overflow: hidden;
+  background-image: url("img/bicycle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 175px;
 }
 
-.image-container {
-  /* margin-top: 10%; */
-  width: 100%;
-  height: 100%;
-  border: 1px solid red;
+.content-container:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
   background-image: url("img/bicycle.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  width: 600px;
+  height: 230px;
 }
 
 .header {
@@ -72,6 +75,7 @@
 }
 
 .order-details:last-child {
+  color: black;
   margin-top: 25px;
 }
 
